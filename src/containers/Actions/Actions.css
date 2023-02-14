@@ -1,0 +1,35 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+.actions {
+  padding: 0px 20px;
+}
+.actions h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 34px;
+  color: rgba(0, 0, 0, 0.85);
+}
+.actions__content {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+@media screen and (max-width: 1182px) {
+  .actions h1 {
+    padding: 1.5rem 0;
+    font-weight: 800;
+    font-size: 24px;
+  }
+  .actions__content {
+    flex-wrap: wrap;
+  }
+}
+@media screen and (max-width: 876px) {
+  .actions {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+}

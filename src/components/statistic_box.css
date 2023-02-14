@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap");
+.statistic_box {
+  height: 9rem;
+  background: #f8f8f8;
+  box-shadow: 0px 2px 7px rgba(0, 0, 0, 0.12);
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 30px;
+  margin: 0 20px 20px 0;
+  text-align: center;
+}
+.statistic_box-title h2 {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 18px;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 0 0 10px 0;
+}
+.statistic_box-profit {
+  font-family: "Inter";
+  font-weight: 700;
+  font-size: 28px;
+  line-height: 46px;
+  color: rgba(0, 0, 0, 0.85);
+  padding: 0 0 10px 0;
+}
+.statistic_box-statistic_profit {
+  padding: 0 0 10px 0;
+}
+.statistic_box-statistic_profit button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem 4rem;
+  border: 1px solid #ababab;
+  border-radius: 5px;
+  font-family: "Inter";
+
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 24px;
+  color: #499835;
+}
+.statistic_box-statistic_profit button:hover {
+  background: #dadada;
+}
+@media screen and (max-width: 1182px) {
+  .statistic_box {
+    width: 20%;
+    height: 8rem;
+  }
+  .statistic_box-profit {
+    font-size: 24px;
+  }
+  .statistic_box-statistic_profit button {
+    padding: 1rem 2rem;
+    font-size: 16px;
+  }
+}

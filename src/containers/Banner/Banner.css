@@ -1,0 +1,37 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@700&display=swap");
+.banner__img {
+  width: 100%;
+  height: 220px;
+  padding: 20px 0 0 20px;
+}
+.banner__img img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  background: linear-gradient(
+    0deg,
+    rgba(79, 149, 61, 0.4),
+    rgba(79, 149, 61, 0.4)
+  );
+  border-radius: 10px;
+  position: relative;
+}
+.banner__blur {
+  background: black;
+  width: 100%;
+  height: 70%;
+  background: rgba(183, 183, 183, 0.5);
+  backdrop-filter: blur(3.5px);
+  border-radius: 10px;
+  position: relative;
+  top: -158px;
+}
+.banner__blur-text {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 20px;
+}
